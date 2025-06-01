@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Хедер */
+header {
+    background-color:  rgb(61, 152, 0);
+    padding: 20px 10px;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Навігація */
+nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+
+.button {
+    background-color: white;
+    color:  rgb(61, 152, 0);
+    font-weight: bold;
+}
+
+/* Основний контент */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+}
+
+/* Зображення */
+.image {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* Футер */
+footer {
+    background-color:  rgb(61, 152, 0);
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
